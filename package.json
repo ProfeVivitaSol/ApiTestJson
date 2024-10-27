@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "json-server db.json"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,6 @@
   "homepage": "https://github.com/ProfeVivitaSol/ApiTestJson#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
     "json-server": "^1.0.0-beta.3"
   }
 }
